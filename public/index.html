@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/animate.css"  media="screen,projection"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+<!--NAV MULA DE ARRIBA-->
+  <body>
+    <main>
+      <div class="row">
+          <div class="col s12">
+            <ul class="tabs">
+              <li class="tab col s3 hoverable"><a class="active" href="#Home" class="btn"><span class="blue-text text-darken-2">Home</span></a></li>
+              <li class="tab col s3 hoverable"><a href="#servicios"><span class="blue-text text-darken-2">servicios</span></a></li>
+              <li class="tab col s3 hoverable"><a href="#contacto"><span class="blue-text text-darken-2">Contacto</span></a></li>
+              <li class="tab col s3 hoverable"><a href="#nosotros"><span class="blue-text text-darken-2">nosotros</span></a></li>
+            </ul>
+          </div>
+      </div>
+      <br>
+
+<!--LA VISTA POR CARTAS-->
+        <div id="Home" class="container">
+          <div class="card medium blue-grey darken-1 col s12 portfolio-max-width card-panel hoverable white-text">
+                <h2>Siistec Pagina de Prueba</h2>
+                <img src="https://static.wixstatic.com/media/07fb21_b6fdc86921ee1ba0f37ffe012c4814f7.gif" border="0" alt="">
+                <br>
+                Text
+                <a>Read more</a>
+          </div>
+        </div>
+        <div id="servicios" class="col s12}">
+          <div class="card medium blue-grey darken-1 col s12 portfolio-max-width card-panel hoverable white-text">
+            servicios
+            <a class="waves-effect waves-light btn" onclick=".animation-{flash} infinite">button</a>
+          </div>
+        </div>
+        <div id="contacto" class="col s12">
+          <div class="container card medium blue-grey darken-1 col s12 portfolio-max-width card-panel hoverable white-text">
+            Oficinas Macul
+            <div class="google-maps">
+              <iframe class="card small hoverable" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.4497924336483!2d-70.60018508479968!3d-33.48967288076276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d018827039dd%3A0xdcafe44dbc98be1d!2sArmando+Moock+3714%2C+Macul%2C+Regi%C3%B3n+Metropolitana%2C+Chile!5e0!3m2!1ses!2s!4v1477076705249"></iframe>
+            </div>
+          </div>
+        </div>
+        <div id="nosotros" class="col s12">
+          <div class="card medium blue-grey darken-1 col s12 portfolio-max-width card-panel hoverable white-text">
+            <div class="carousel valign-wrapper">
+              <a class="carousel-item valign" href="#one!">
+                <div class="card small">
+                  test
+                </div>
+              </a>
+              <a class="carousel-item valing" href="#two!">
+                <div class="container card indigo accent-4 hoverable">
+                  blabla
+                </div>
+              </a>
+              <a class="carousel-item valing" href="#three!">
+                <div class="container card indigo accent-4 hoverable">
+                  blabla
+                </div>
+              </a>
+              <a class="carousel-item valign" href="#four!">
+                <div class="container card indigo accent-4 hoverable">
+                  blabla
+                </div>
+              </a>
+              <a class="carousel-item valign" href="#five!">
+                <div class="container card indigo accent-4 hoverable">
+                  blabla
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
+
+        <footer class="page-footer white-text">
+          <div class="container center-align">
+          © 2016 Siistec Ingenieria Ltda
+          </div>
+      </footer>
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.carousel').carousel();
+      });
+    </script>
+
+    </script>
+  </body>
+</html>
