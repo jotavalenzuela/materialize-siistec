@@ -16,11 +16,11 @@
       <div class="row">
           <div class="col s12">
             <ul class="tabs">
-              <li class="tab col s3 hoverable"><a class="active" href="#Home" class="btn"><span class="blue-text text-darken-2">Home</span></a></li>
-              <li class="tab col s3 hoverable"><a href="#servicios"><span class="blue-text text-darken-2">servicios</span></a></li>
-              <li class="tab col s3 hoverable"><a href="#contacto"><span class="blue-text text-darken-2">Contacto</span></a></li>
-              <li class="tab col s3 hoverable"><a href="#nosotros"><span class="blue-text text-darken-2">nosotros</span></a></li>
-              <li class="tab col s3 hoverable"><a href="#donde"><span class="blue-text text-darken-2">Donde</span></a></li>
+              <li class="tab col s3 hoverable"><a class="active" href="#Home" class="btn" onclick="Materialize.showStaggeredList('#home')"><span class="blue-text text-darken-2">Home</span></a></li>
+              <li class="tab col s3 hoverable"><a href="#servicios" onclick="Materialize.showStaggeredList('#servicios')"><span class="blue-text text-darken-2">servicios</span></a></li>
+              <li class="tab col s3 hoverable"><a href="#contacto" onclick="Materialize.showStaggeredList('#contacto')"><span class="blue-text text-darken-2">Contacto</span></a></li>
+              <li class="tab col s3 hoverable"><a href="#nosotros" onclick="Materialize.showStaggeredList('#nosotros')"><span class="blue-text text-darken-2">nosotros</span></a></li>
+              <li class="tab col s3 hoverable"><a href="#donde" onclick="Materialize.showStaggeredList('#donde')"><span class="blue-text text-darken-2">Donde</span></a></li>
             </ul>
           </div>
       </div>
@@ -28,55 +28,129 @@
 
 <!--LA VISTA POR CARTAS-->
         <div id="Home" class="col s12">
-          <div class="card medium blue-grey darken-1 col s12 portfolio-max-width card-panel hoverable white-text">
-                <h2>Siistec Pagina de Prueba</h2>
-                <img src="https://static.wixstatic.com/media/07fb21_b6fdc86921ee1ba0f37ffe012c4814f7.gif" border="0" alt="">
-                <br>
-                Text
-                <a>Read more</a>
-          </div>
-        </div>
-        <div id="servicios" class="col s12">
-          <div class="medium blue-grey darken-1 col s12 portfolio-max-width card-panel hoverable white-text center">
-            <h2>Nuestros Servicios</h2>
-            <div class="slider ">
-              <ul class="slides">
-                <li>
-                  <img class="responsive-img" src="https://www.codejobs.biz/public/images/blog/original/321c90743897052.png"> <!-- random image -->
-                  <div class="caption center-align">
-                    <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                  </div>
-                </li>
-                <li>
-                  <img class="responsive-img" src="https://www.codejobs.biz/public/images/blog/original/321c90743897052.png"> <!-- random image -->
-                  <div class="caption left-align">
-                    <h3>Left Aligned Caption</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                  </div>
-                </li>
-                <li>
-                  <img class="responsive-img" src="https://www.codejobs.biz/public/images/blog/original/321c90743897052.png"> <!-- random image -->
-                  <div class="caption right-align">
-                    <h3>Right Aligned Caption</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                  </div>
-                </li>
-                <li>
-                  <img class="responsive-img" src="https://www.codejobs.biz/public/images/blog/original/321c90743897052.png"> <!-- random image -->
-                  <div class="caption center-align">
-                    <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
+          <ul>
+            <li>
+              <div class=" z-depth-3 card medium blue-grey darken-1 col s12 portfolio-max-width card-panel hoverable white-text">
+                    <h2>Siistec Pagina de Prueba</h2>
+                    <img src="https://static.wixstatic.com/media/07fb21_b6fdc86921ee1ba0f37ffe012c4814f7.gif" border="0" alt="">
+                    <br>
+                    Text
+                    <a>Read more</a>
+              </div>
+            </li>
+          </ul>
           <p></p>
-
         </div>
+        
+        <div id="servicios" class="col s12">
+          <ul>
+            <li>
+              <div class="z-depth-3 medium blue-grey darken-1 col s12 portfolio-max-width card-panel hoverable white-text center">
+                <h2>Nuestros Servicios</h2>
+                <div class="slider ">
+                  <ul class="slides">
+                    <li>
+                      <img class="responsive-img" src="https://www.codejobs.biz/public/images/blog/original/321c90743897052.png"> <!-- random image -->
+                      <div class="caption center-align">
+                        <h3>This is our big Tagline!</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                      </div>
+                    </li>
+                    <li>
+                      <img class="responsive-img" src="https://www.codejobs.biz/public/images/blog/original/321c90743897052.png"> <!-- random image -->
+                      <div class="caption left-align">
+                        <h3>Left Aligned Caption</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                      </div>
+                    </li>
+                    <li>
+                      <img class="responsive-img" src="https://www.codejobs.biz/public/images/blog/original/321c90743897052.png"> <!-- random image -->
+                      <div class="caption right-align">
+                        <h3>Right Aligned Caption</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                      </div>
+                    </li>
+                    <li>
+                      <img class="responsive-img" src="https://www.codejobs.biz/public/images/blog/original/321c90743897052.png"> <!-- random image -->
+                      <div class="caption center-align">
+                        <h3>This is our big Tagline!</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <p></p>
+        </div>
+
         <div id="contacto" class="col s12">
-          <div class="medium blue-grey darken-1 col s12 portfolio-max-width card-panel hoverable white-text center">
+          <ul>
+            <li>
+              <div class="z-depth-3 medium blue-grey darken-1 col s12 portfolio-max-width card-panel hoverable white-text center">
+                  <div class="row">
+                      <div class="col m10 offset-m1 s12">
+                          <h2 class="center-align">Contactenos</h2>
+                          <div class="row">
+                              <form class="col s12">
+                                  <div class="row">
+                                      <div class="input-field col m6 s12">
+                                          <input id="first_name" type="text" class="validate">
+                                          <label for="first_name">Nombre</label>
+                                      </div>
+                                      <div class="input-field col m6 s12">
+                                          <input id="last_name" type="text" class="validate">
+                                          <label for="last_name">Apellido</label>
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <div class="input-field col m6 s12">
+                                          <i class="mdi-content-mail prefix"></i>
+                                          <input id="email" type="email" class="validate" required>
+                                          <label for="email">Correo Electronico</label>
+                                      </div>
+                                      <div class="input-field col m6 s12">
+                                          <i class="mdi-maps-store-mall-directory prefix"></i>
+                                          <input id="company" type="text" class="validate">
+                                          <label for="company">Empresa</label>
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <div class="input-field col s12">
+                                        <textarea id="message" class="materialize-textarea"></textarea>
+                                        <label for="message">Mensaje</label>
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <div class="input-field col s12">
+                                        <label for="budget">Area??? (dividir correos por destinatario?)</label>
+                                        <br/>
+                                      </div>
+                                      <div class="input-field col s12">
+                                          <select class="browser-default black-text" id="budget">
+                                            <option value="" selected disabled>Escoje el area a consulta</option>
+                                            <option value="1">aaaaaaaa</option>
+                                            <option value="2">bbbbbbbb</option>
+                                            <option value="3">cccccccc</option>
+                                          </select>
+                                      </div>
+                                  </div>
+
+                                  <div class="row">
+                                      <div class="col m12">
+                                       <p class="right-align"><button class="btn btn-large waves-effect waves-light" type="button" name="action">Enviar Mensaje</button></p>
+                                      </div>
+                                  </div>
+                              </form>
+                          </div>
+                      </div>
+                    </div>
+              </div>
+            </li>
+          </ul>
+          <div class="z-depth-3 medium blue-grey darken-1 col s12 portfolio-max-width card-panel hoverable white-text center">
               <div class="row">
                   <div class="col m10 offset-m1 s12">
                       <h2 class="center-align">Contactenos</h2>
@@ -137,38 +211,51 @@
           </div>
           <p></p>
         </div>
+
         <div id="nosotros" class="col s12">
-          <div class="container medium blue-grey darken-1 col s12 portfolio-max-width card-panel hoverable white-text">
-            <div class="carousel valign valign-wrapper">
-              <a class="carousel-item valign-wrapper" href="#one!">
-                <div class="card small">
-                  test
-                </div>
-              </a>
-              <a class="carousel-item valign-wrapper" href="#two!">
-                <div class="card small">
-                  test
-                </div>
-              </a>
-              <a class="carousel-item valign-wrapper" href="#three!">
-                <div class="card small">
-                  test
-                </div>
-              </a>
-              <a class="carousel-item valign-wrapper" href="#four!">
-                <div class="card small">
-                  test
-                </div>
-              </a>
-            </div>
-          </div>
+          <ul>
+            <li style="opacity: 0;">
+              <div class="carousel medium blue-grey darken-1 col s12 portfolio-max-width card-panel hoverable white-text z-depth-3 center">
+                <h3>DESCRIPCION DE AREAS???</h3>
+                <a class="carousel-item valign-wrapper" href="#one!">
+                  <div class="card small">
+                    test
+                  </div>
+                </a>
+                <a class="carousel-item valign-wrapper" href="#two!">
+                  <div class="card small">
+                    test
+                  </div>
+                </a>
+                <a class="carousel-item valign-wrapper" href="#three!">
+                  <div class="card small">
+                    test
+                  </div>
+                </a>
+                <a class="carousel-item valign-wrapper" href="#four!">
+                  <div class="card small">
+                    test
+                  </div>
+                </a>
+                <p></p>
+              </div>
+            </li>
+          </ul>
+
         </div>
+
         <div id="donde" class="col s12">
-          <div class="container medium blue-grey darken-1 col s12 portfolio-max-width card-panel hoverable white-text">            <h3>Oficinas Macul</h3>
-            <div class="google-maps">
-              <iframe class="hoverable" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.4497924336483!2d-70.60018508479968!3d-33.48967288076276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d018827039dd%3A0xdcafe44dbc98be1d!2sArmando+Moock+3714%2C+Macul%2C+Regi%C3%B3n+Metropolitana%2C+Chile!5e0!3m2!1ses!2s!4v1477076705249"></iframe>
-            </div>
-          </div>
+          <ul>
+            <li style="opacity: 0;">
+              <div class="z-depth-3 center container medium blue-grey darken-1 col s12 portfolio-max-width card-panel hoverable white-text">
+                <h3>Oficinas Macul</h3>
+                <div class="google-maps">
+                  <iframe class="hoverable" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.4497924336483!2d-70.60018508479968!3d-33.48967288076276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d018827039dd%3A0xdcafe44dbc98be1d!2sArmando+Moock+3714%2C+Macul%2C+Regi%C3%B3n+Metropolitana%2C+Chile!5e0!3m2!1ses!2s!4v1477076705249"></iframe>
+                </div>
+              </div>
+            </li>
+          </ul>
+
           <p></p>
         </div>
 
