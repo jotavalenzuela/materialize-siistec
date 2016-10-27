@@ -11,5 +11,5 @@ app.use('/public', express.static(path.join(__dirname + '/')));
 // Listen for requests
 var server = app.listen(app.get('port'), function() {
   var port = server.address().port;
-  console.log('Magic happens on port ' + port);
+  console.log('Pagina Siistec Hecha en materialize' + port);
 });
